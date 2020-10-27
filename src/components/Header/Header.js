@@ -2,18 +2,30 @@ import React from 'react'
 import './Header.css'
 import PersonIcon from '@material-ui/icons/Person'
 import IconButton from '@material-ui/core/IconButton'
+import ForumIcon from '@material-ui/icons/Forum'
 
 
 const Header = () => {
   return (
     <div className='header'>
-      <h1>Header</h1>
 
       <IconButton>
         <PersonIcon
           fontSize='large' className='header__icon' />
       </IconButton>
-    </div>
+
+      <img
+        src="https://res.cloudinary.com/shafali/image/upload/v1603828089/tinder-logo_ccrpkc.jpg"
+        alt=""
+        className="header__logo" />
+
+      <IconButton>
+        <ForumIcon
+          fontSize='large' className='header__icon' />
+      </IconButton>
+
+
+    </div >
   )
 }
 
