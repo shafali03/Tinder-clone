@@ -1,7 +1,7 @@
 
+# Tinder Clone
 
-```
-yarn add @material-ui/core
-yarn add @material-ui/icons
-yarn add react-tinder-card
-```
+
+### Tech stack used
+
+* React 
